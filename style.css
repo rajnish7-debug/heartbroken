@@ -1,0 +1,155 @@
+body {
+    background-color: #F4D7D7; /* light red color for background */
+    font-family: Arial, sans-serif; /* font for entire website */
+}
+h1 {
+    color: #8B0000; /* dark red color for heading */
+    text-align: center; /* center the heading */
+  }
+  img {
+    display: block; /* display the image as a block element */
+    margin: 0 auto; /* center the image horizontally */
+    width: 50%; /* make the image width 50% of the container */
+  }
+  p {
+    text-align: center; /* center the paragraph */
+    font-size: 1.2em; /* increase font size of the paragraph */
+    color: #8B0000; /* dark red color for paragraph */
+    margin-top: 20px; /* add some margin top of the paragraph */
+  }
+  nav {
+    text-align: center; /* center the navigation menu horizontally */
+  }
+  nav ul {
+    list-style-type: none; /* remove bullet points from list items */
+    margin: 0; /* remove margin from the list */
+    padding: 0; /* remove padding from the list */
+  }
+  nav li {
+    display: inline-block; /* display list items as inline blocks */
+    margin: 0 10px; /* add some margin between list items */
+  }
+  nav a {
+    color: #8B0000; /* set color of link */
+    text-decoration: none; /* remove underline from link */
+    padding: 10px; /* add some padding to the link */
+  }
+  form {
+    width: 50%; /* make the form width 50% of the container */
+    margin: 0 auto; /* center the form horizontally */
+    text-align: left; /* align text in the form to left */
+  }
+  label, input, textarea {
+    display: block; /* display label, input and textarea as block elements */
+    margin-bottom: 10px; /* add some margin bottom for label, input and textarea */
+  }
+  
+  input[type=submit] {
+    background-color: #8B0000; /* set background color of submit button */
+    color: white; /* set color of text in submit button */
+    padding: 10px; /* add some padding to the submit button */
+    margin-top: 20px; /* add some margin top to the submit button */
+    width: 100%; /* make the submit button width 100% of its container */
+  }
+  /* Style the audio element */
+audio {
+    width: 100%; /* Make the audio element take up the full width of its container */
+  }
+  
+  /* Style the play button */
+  #play-button {
+    background-color: #7ed957; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to a hand when the button is hovered over */
+  }
+  
+  /* Style the pause button */
+  #pause-button {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to a hand when the button is hovered over */
+  }
+  
+  /* Style the progress bar */
+  #progress-bar {
+    width: 100%; /* Make the progress bar take up the full width of its container */
+    height: 20px; /* Set the height of the progress bar */
+    background-color: #ddd; /* Light gray background color */
+  }
+  
+  video, audio {
+    width:80%;
+    height:auto;
+    margin: 0 auto; /* center the video horizontally */
+}
+/* Style the video element */
+video {
+    width: 100%; /* Make the video element take up the full width of its container */
+  }
+  
+  /* Style the play button */
+  #play-button {
+    background-color: #7ed957; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to a hand when the button is hovered over */
+  }
+  
+  /* Style the pause button */
+  #pause-button {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to a hand when the button is hovered over */
+  }
+  
+  /* Style the progress bar */
+  #progress-bar {
+    width: 100%; /* Make the progress bar take up the full width of its container */
+    height: 20px; /* Set the height of the progress bar */
+    background-color: #ddd; /* Light gray background color */
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer {
+    background-color: #F0F8FF; /* This is a light blue color */
+    padding: 20px;
+}
+
+footer a {
+    color: #8B0000; /* This is a dark red color */
+    text-decoration: none; /* This removes the underline from the links */
+    margin: 0 10px; /* This adds a margin of 10px to the left and right of the links */
+}
+  
